@@ -1,0 +1,154 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    background: linear-gradient(to bottom, #ecfdf5, #d1fae5);
+    color: #064e3b;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    line-height: 1.8;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #99f6e4;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    top: 0;
+    z-index: 999;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    color: #065f46;
+    letter-spacing: 1px;
+}
+
+main {
+    padding: 3rem 1.5rem;
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: #f0fdfa;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main-article h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #047857;
+    border-right: 4px solid #10b981;
+    padding-right: 0.8rem;
+}
+
+.main-article h3 {
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
+    color: #065f46;
+    border-bottom: 2px dashed #5eead4;
+    padding-bottom: 0.5rem;
+}
+
+.main-article h4 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    color: #0f766e;
+}
+
+.main-article p,
+.main-article li {
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding-right: 1.5rem;
+    list-style-type: square;
+}
+
+figure {
+    text-align: center;
+    margin: 2.5rem 0;
+    transition: transform 0.3s ease;
+}
+
+figure:hover {
+    transform: scale(1.02);
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: filter 0.4s ease;
+}
+
+figure img:hover {
+    filter: brightness(1.05);
+}
+
+figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #0f766e;
+    font-style: italic;
+}
+
+footer {
+    background-color: #99f6e4;
+    padding: 1.5rem;
+    text-align: center;
+    color: #065f46;
+    font-size: 0.9rem;
+    border-top: 1px solid #5eead4;
+}
+
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    main {
+        padding: 1.5rem 1rem;
+    }
+    .main-article h2 {
+        font-size: 1.5rem;
+    }
+    .main-article h3 {
+        font-size: 1.2rem;
+    }
+    .main-article h4 {
+        font-size: 1.1rem;
+    }
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    font-size: larger;
+}
+nav a {
+    text-decoration: none;
+    color: #0e7490;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #064e3b;
+}
+#id_tel{
+    color: rgb(19, 170, 170);
+}
+#link_tel{
+    text-decoration: none;
+}
